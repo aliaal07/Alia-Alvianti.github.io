@@ -1,0 +1,77 @@
+body{
+    font: 16px arial, sans-serif;
+    background-color: khaki;
+    color: #333333;
+
+}
+
+
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: gainsboro;
+}
+
+.judul {
+    font-size: 30px;
+    text-align: center;
+    color: #333333;
+}
+
+
+.header{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.header, ul, li{
+    display: inline-block;
+    margin: 20px;
+}
+
+.header, a {
+    text-decoration: none;
+    color: salmon;
+    padding: 3px;
+}
+
+.header a:hover {
+    background-color: indigo;
+    color: red;
+}
+
+.gambar{
+    background-image: url(mieayam.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: 0 -70px;
+    border-top: 5px solid salmon;
+    border-bottom: 5px solid salmon;
+}
+
+.content {
+    padding: 20px;
+}
+.content h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.content .penulis a{
+    text-decoration: none;
+    color: salmon;
+}
+
+.footer {
+    background-color: #333333;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer .copyright {
+    color: #ffff;
+    text-align: center;
+    font-size: 10px;
+    text-decoration: none;
+}
